@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetTimeTablesRequest xmlns="http://schemas.ferrygateway.org/1.1.0" OperatorCode="TLINK"
+        DepartPort="FRMRS" 
+        DestinationPort="FRPRP" 
+        FromSailingDate="2022-05-06" 
+        ToSailingDate="2022-05-10">
+    <Context AgentAccountNumber="G1450400" 
+        TimeStamp="2022-04-29T17:01:55.952Z" TransactionId="116763a5-323a-45b0-b078-c02481b4860e" 
+        CountryCode="FRA" User="Anthony @T0" OriginatingSystem="DEBUG POSTMAN"
+        LanguagePrefCode="fr" Currency="EUR" />
+</GetTimeTablesRequest>

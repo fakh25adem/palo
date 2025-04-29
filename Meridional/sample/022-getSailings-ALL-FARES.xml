@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetSailingsRequest xmlns="http://schemas.ferrygateway.org/1.1.0" OperatorCode="TLINK">
+    <Context AgentAccountNumber="G1450400" 
+        TimeStamp="2022-04-29T16:23:00.165Z" TransactionId="116763a5-323a-45b0-b078-c02481b4860e" 
+        CountryCode="FRA" User="Anthony @T0" OriginatingSystem="DEBUG POSTMAN"
+        LanguagePrefCode="fr" Currency="EUR" />
+    <Passengers>
+        <Passenger Id="P1" Age="39" Category="Adult" Title="Mr" Forename="Anthony" Surname="PLASSAIS" DateOfBirth="1982-08-19" Gender="Male"  />
+    </Passengers>
+    <Vehicles>
+        <Vehicle Id="1">
+            <Lead OperatorCode="A1-RK;SEAT;LEON;LOCACTION" Height="145" Length="627" Width="182" Registration="RW-PKO-VM"/>
+        </Vehicle>
+    </Vehicles>
+    <Pets>
+        
+    </Pets>
+    <FerryComponent>
+        <Sailings>
+            <Sailing Id="1">
+                <SailingSearchCriterion 
+                        DepartDateTime="2022-05-02T18:30:00" DepartPlace="FRMRS" 
+                        DestinationPlace="FRPRP" OperatorCode="" />
+                <FareDetails FareType="" Productcode="" />
+            </Sailing>
+            <Sailing Id="2">
+                <SailingSearchCriterion 
+                        DepartDateTime="2022-05-14T19:00:00" DepartPlace="FRPRP" 
+                        DestinationPlace="FRMRS" OperatorCode="" />
+                <FareDetails FareType="" Productcode="" />
+            </Sailing>
+        </Sailings>
+    </FerryComponent>
+</GetSailingsRequest>

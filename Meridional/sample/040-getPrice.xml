@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetPriceRequest xmlns="http://schemas.ferrygateway.org/1.1.0" OperatorCode="TLINK">
+    <Context AgentAccountNumber="G1450400" 
+        TimeStamp="2022-04-29T16:49:49.155Z" TransactionId="116763a5-323a-45b0-b078-c02481b4860e" 
+        CountryCode="FRA" User="Anthony @T0" OriginatingSystem="DEBUG POSTMAN"
+        LanguagePrefCode="fr" Currency="EUR" 
+        ExternalBookingReference="T0-T007-2022-04-29T16:49:49.155Z" />
+    <Passengers>
+        <Passenger Id="P1" Age="39" Category="Adult" Title="Mr" Forename="Anthony" Surname="PLASSAIS" DateOfBirth="1982-08-19" Gender="Male"  />
+        <Passenger Id="P2" Age="38" Category="Adult" Title="Mrs" Forename="Antonia" Surname="PLASSAIS" DateOfBirth="1983-07-20" Gender="Female"  />
+        <Passenger Id="P3" Age="49" Category="Adult" Title="Mr" Forename="John" Surname="SMITH" DateOfBirth="1972-08-19" Gender="Male"  />
+        <Passenger Id="P5" Age="2" Category="Child" Title="Mrs" Forename="Petite" Surname="PLASSAIS" DateOfBirth="2020-01-01" Gender="Female"  />
+    </Passengers>
+    <Vehicles>
+        <Vehicle Id="1">
+            <Lead OperatorCode="A1-RK;SEAT;LEON;" Height="145" Length="627" Width="182" />
+        </Vehicle>
+    </Vehicles>
+    <FerryComponent>
+        <Sailings>
+            <Sailing Id="1" AllPassengers="true" AllVehicles="true" AllPets="true">
+                <SailingInfo DepartPort="FRMRS" DestinationPort="FRPRP" DepartDateTime="2022-05-02T18:30:00" />
+                <FareDetails FareType="FGWSTD" Productcode="" />
+                <Services>
+                    <OnBoardAccommodationServices>
+                        <OnBoardAccommodationService Code="A4E" Quantity="1">
+                            <PassengerRefs>
+                                <Ref Id="P1" />
+                                <Ref Id="P2" />
+                                <Ref Id="P3" />
+                                <Ref Id="P5" />
+                            </PassengerRefs>
+                        </OnBoardAccommodationService>
+                    </OnBoardAccommodationServices>
+                    <OnBoardServices>
+                        <OnBoardService Code="DP SAM" Quantity="2" />
+                        <OnBoardService Code="VELO" Quantity="1" />
+                        <OnBoardService Code="CHENIL" Quantity="1" />
+                    </OnBoardServices>
+                </Services>
+            </Sailing>
+            <Sailing Id="2" AllPassengers="true" AllVehicles="true" AllPets="true">
+                <SailingInfo DepartPort="FRPRP" DestinationPort="FRMRS" DepartDateTime="2022-05-14T19:00:00" />
+                <FareDetails FareType="FGWFLX" Productcode="" />
+                <Services>
+                    <OnBoardAccommodationServices>
+                        <OnBoardAccommodationService Code="A4E" Quantity="1">
+                            <PassengerRefs>
+                                <Ref Id="P1" />
+                                <Ref Id="P2" />
+                                <Ref Id="P5" />
+                            </PassengerRefs>
+                        </OnBoardAccommodationService>
+                        <OnBoardAccommodationService Code="FAUT" Quantity="1">
+                            <PassengerRefs>
+                                <Ref Id="P3" />
+                            </PassengerRefs>
+                        </OnBoardAccommodationService>
+                    </OnBoardAccommodationServices>
+                    <OnBoardServices>
+                        <OnBoardService Code="VELO" Quantity="1" />
+                    </OnBoardServices>
+                </Services>
+            </Sailing>
+        </Sailings>
+    </FerryComponent>
+</GetPriceRequest>

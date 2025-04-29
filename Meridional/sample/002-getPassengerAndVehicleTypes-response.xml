@@ -1,0 +1,116 @@
+<GetPassengerAndVehicleTypesResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.ferrygateway.org/1.1.0">
+	<Context AgentAccountNumber="G1450400" TimeStamp="2022-04-29T16:10:24.522Z" CountryCode="FRA" Currency="EUR" LanguagePrefCode="fr" TransactionId="0a3cac55-b052-4c03-be6b-9c95cf69b1ce" User="Anthony @T0" OriginatingSystem="DEBUG POSTMAN"/>
+	<PassengerCategories>
+		<PassengerCategory Category="Adult" MinAge="12" MaxAge="150"/>
+		<PassengerCategory Category="Child" MinAge="0" MaxAge="11"/>
+	</PassengerCategories>
+	<LeadVehicleCategories>
+		<LeadVehicleCategory OperatorCode="A1" Description="Véhicule Hauteur &lt; 1,80m" MinLength="0" MaxLength="1000" MinHeight="100" MaxHeight="179" Code="Car"/>
+		<LeadVehicleCategory OperatorCode="A2" Description="Véhicule Hauteur entre 1,80m et 2,00m" MinLength="0" MaxLength="1000" MinHeight="180" MaxHeight="199" Code="Car"/>
+		<LeadVehicleCategory OperatorCode="A3" Description="Véhicule Hauteur entre 2,00m et 2,25m" MinLength="0" MaxLength="1000" MinHeight="200" MaxHeight="224" Code="Car"/>
+		<LeadVehicleCategory OperatorCode="A4" Description="Véhicule Hauteur entre 2,25m et 2,50m" MinLength="0" MaxLength="1000" MinHeight="225" MaxHeight="249" Code="Car"/>
+		<LeadVehicleCategory OperatorCode="A5" Description="Véhicule Hauteur entre 2,50m et 4,50m" MinLength="0" MaxLength="1000" MinHeight="250" MaxHeight="300" Code="Car"/>
+		<LeadVehicleCategory OperatorCode="SIDE" Description="Side car - Quad" MinLength="0" MaxLength="450" MinHeight="100" MaxHeight="180"/>
+		<LeadVehicleCategory OperatorCode="MOTO" Description="Moto" MinLength="0" MaxLength="220" MinHeight="0" MaxHeight="150" Code="Motorcycle"/>
+		<LeadVehicleCategory OperatorCode="A1-RK" Description="Véhicule Hauteur &lt; 1,80m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="100" MaxHeight="179"/>
+		<LeadVehicleCategory OperatorCode="A1-R1" Description="Véhicule Hauteur &lt; 1,80m + Rem. Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="179"/>
+		<LeadVehicleCategory OperatorCode="A1-R2" Description="Véhicule Hauteur &lt; 1,80m + Rem. 1,80m &lt; H &lt; 2,00m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="A1-R3" Description="Véhicule Hauteur &lt; 1,80m + Rem. 1,80m &lt; H &lt; 2,25m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="A1-R4" Description="Véhicule Hauteur &lt; 1,80m + Rem. 1,80m &lt; H &lt; 2,50m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="A1-R5" Description="Véhicule Hauteur &lt; 1,80m + Rem. 1,80m &lt; H &lt; 4,50m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="A2-RK" Description="Véh, 1,80m &lt; H &lt; 2,00m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="180" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="A2-R1" Description="Véh. 1,80m &lt; H &lt; 2,00m + Rem. Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="A2-R2" Description="Véh. 1,80m &lt; H &lt; 2,00m  + Rem. 1,80m &lt; H &lt; 2,00m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="A2-R3" Description="Véh. 1,80m &lt; H &lt; 2,00m + Rem. 1,80m &lt; H &lt; 2,25m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="A2-R4" Description="Véh. 1,80m &lt; H &lt; 2,00m + Rem. 1,80m &lt; H &lt; 2,50m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="A2-R5" Description="Véh. 1,80m &lt; H &lt; 2,00m + Rem. 1,80m &lt; H &lt; 4,50m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="A3-RK" Description="Véh, 2,00m &lt; H &lt; 2,25m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="A3-R1" Description="Véh, 2,00m &lt; H &lt; 2,25m + Rem. Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="A3-R2" Description="Véh, 2,00m &lt; H &lt; 2,25m + Rem. 1,80m &lt; H &lt; 2,00m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="A3-R3" Description="Véh, 2,00m&lt; H &lt; 2,25m + Rem. 2,00m &lt; H &lt; 2,25m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="A3-R4" Description="Véh, 2,00m &lt; H &lt; 2,25m + Rem. 2,00m &lt; H &lt; 2,50m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="A3-R5" Description="Véh, 2,00m &lt; H &lt; 2,25m + Rem. 2,00m &lt; H &lt; 4,50m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="A4-RK" Description="Véh, 2,25m &lt; H &lt; 2,50m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="A4-R1" Description="Véh, 2,25m &lt; H &lt; 2,50m + Rem, Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="A4-R2" Description="Véh, 2,25m &lt; H &lt; 2,50m + Rem, 1,80m &lt; H &lt; 2,00m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="A4-R3" Description="Véh, 2,25m &lt; H &lt; 2,50m + Rem, 2,00m &lt; H &lt; 2,25m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="A4-R4" Description="Véh, 2,25m &lt; H &lt; 2,50m + Rem, 2,25m &lt; H &lt; 2,50m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="A4-R5" Description="Véh, 2,25m &lt; H &lt; 2,50m + Rem, 2,50m &lt; H &lt; 4,50m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="A5-RK" Description="Véh, 2,50m &lt; H &lt; 4,50m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="A5-R1" Description="Véh, 2,50m &lt; H &lt; 4,50m + Rem, Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="A5-R2" Description="Véh, 2,50m &lt; H &lt; 4,50m + Rem, 1,80m &lt; H &lt; 2,00m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="A5-R3" Description="Véh, 2,50m &lt; H &lt; 4,50m + Rem, 2,00m &lt; H &lt; 2,25m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="A5-R4" Description="Véh, 2,50m &lt; H &lt; 4,50m + Rem, 2,25m &lt; H &lt; 2,50m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="A5-R5" Description="Véh, 2,50m &lt; H &lt; 4,50m + Rem, 2,50m &lt; H &lt; 4,50m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="F1" Description="Fourgon Hauteur &lt; 1,80m" MinLength="0" MaxLength="1000" MinHeight="100" MaxHeight="179" Code="Van"/>
+		<LeadVehicleCategory OperatorCode="F2" Description="Fourgon Hauteur entre 1,80m et 2,00m" MinLength="0" MaxLength="1000" MinHeight="180" MaxHeight="199" Code="Van"/>
+		<LeadVehicleCategory OperatorCode="F3" Description="Fourgon Hauteur entre 2,00m et  2,25m" MinLength="0" MaxLength="600" MinHeight="200" MaxHeight="224" Code="Van"/>
+		<LeadVehicleCategory OperatorCode="F4" Description="Fourgon Hauteur entre 2,25m et 2,50m" MinLength="0" MaxLength="600" MinHeight="225" MaxHeight="249" Code="Van"/>
+		<LeadVehicleCategory OperatorCode="F5" Description="Fourgon Hauteur entre 2,50m et 4,50m" MinLength="0" MaxLength="600" MinHeight="250" MaxHeight="300" Code="Van"/>
+		<LeadVehicleCategory OperatorCode="F1-RK" Description="Fourgon Hauteur &lt; 1,80m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="100" MaxHeight="179"/>
+		<LeadVehicleCategory OperatorCode="F1-R1" Description="Fourgon Hauteur &lt; 1,80m + Rem. Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="179"/>
+		<LeadVehicleCategory OperatorCode="F1-R2" Description="Fourgon Hauteur &lt; 1,80m + Rem. 1,80m &lt; H &lt; 2,00m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="F1-R3" Description="Fourgon Hauteur &lt; 1,80m + Rem. 1,80m &lt; H &lt; 2,25m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="F1-R4" Description="Fourgon Hauteur &lt; 1,80m + Rem, 1,80m &lt; H &lt; 2,50m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="F1-R5" Description="Fourgon Hautreur &lt; 1,80m + Rem, 2,50m &lt; H &lt; 4,50m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="F2-RK" Description="Fourgon 1,80m &lt; H &lt; 2,00m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="180" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="F2-R1" Description="Fourgon 1,80m &lt; H &lt; 2,00m + Rem. Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="F2-R2" Description="Fourgon 1,80m &lt;H&lt; 2,00m  + Rem. 1,80m &lt;H&lt; 2,00m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="F2-R3" Description="Fourgon 1,80m &lt; H &lt; 2,00m + Rem. 1,80m &lt; H &lt; 2,25m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="F2-R4" Description="Fourgon 1,80m &lt; H &lt; 2,00m + Rem. 1,80m &lt; H &lt; 2,50m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="F2-R5" Description="Fourgon 1,80m &lt; H &lt; 2,00m + Rem. 1,80m &lt; H &lt; 4,50m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="F3-RK" Description="Fourgon Hauteur &gt; 2,25m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="F3-R1" Description="Fourgon 2,00m &lt; H &lt; 2,25m + Rem. Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="F3-R2" Description="Fourgon 2,00m &lt; H &lt; 2,25m + Rem. 1,80m &lt; H &lt; 2,00m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="F3-R3" Description="Fourgon 2,00m &lt; H &lt; 2,25m + Rem. 2,00m &lt; H &lt; 2,25m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="F3-R4" Description="Fourgon 2,00m &lt; H &lt; 2,25m + Rem. 2,00m &lt; H &lt; 2,50m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="F3-R5" Description="Fourgon 2,00m &lt; H &lt; 2,25m + Rem. 2,50m &lt; H &lt; 4,50m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="F4-RK" Description="Fourgon 2,25m &lt; H &lt; 2,50m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="F4-R1" Description="Fourgon 2,25m &lt; H &lt; 2,50m + Rem, Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="F4-R2" Description="Fourgon 2,25m &lt; H &lt; 2,50m + Rem, 1,80m &lt; H &lt; 2,00m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="F4-R3" Description="Fourgon 2,25m &lt; H &lt; 2,50m + Rem, 2,00m &lt; H &lt; 2,25m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="F4-R4" Description="Fourgon 2,25m &lt; H &lt; 2,50m + Rem, 2,25m &lt; H &lt; 2,50m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="F4-R5" Description="Fourgon 2,25m &lt; H &lt; 2,50m + Rem, 2,50m &lt; H &lt; 4,50m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="F5-RK" Description="Fourgon 2,50m &lt; H &lt; 4,50m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="F5-R1" Description="Fourgon 2,50m &lt; H &lt; 4,50m + Rem, Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="F5-R2" Description="Fourgon 2,50m &lt; H &lt; 4,50m + Rem, 1,80m &lt; H &lt; 2,00m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="F5-R3" Description="Fourgon 2,50m &lt; H &lt; 4,50m + Rem, 2,00m &lt; H &lt; 2,25m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="F5-R4" Description="Fourgon 2,50m &lt; H &lt; 4,50m + Rem, 2,25m &lt; H &lt; 2,50m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="F5-R5" Description="Fourgon 2,50m &lt; H &lt; 4,50m + Rem, 2,50m &lt; H &lt; 4,50m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="K1" Description="Camping Car Hauteur &lt; 1,80m" MinLength="0" MaxLength="1000" MinHeight="100" MaxHeight="179" Code="Motorhome"/>
+		<LeadVehicleCategory OperatorCode="K2" Description="Camping Car Hauteur entre 1,80m et 2,00m" MinLength="0" MaxLength="1000" MinHeight="180" MaxHeight="199" Code="Motorhome"/>
+		<LeadVehicleCategory OperatorCode="K3" Description="Camping Car Hauteur entre 2,00m et 2,25m" MinLength="0" MaxLength="1000" MinHeight="200" MaxHeight="224" Code="Motorhome"/>
+		<LeadVehicleCategory OperatorCode="K4" Description="Camping Car Hauteur entre 2,25m et 2,50m" MinLength="0" MaxLength="1000" MinHeight="225" MaxHeight="249" Code="Motorhome"/>
+		<LeadVehicleCategory OperatorCode="K5" Description="Camping Car Hauteur entre 2,50m et 4,50m" MinLength="0" MaxLength="1000" MinHeight="250" MaxHeight="300" Code="Motorhome"/>
+		<LeadVehicleCategory OperatorCode="K1-RK" Description="Camping Car Hauteur &lt; 1,80m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="100" MaxHeight="179"/>
+		<LeadVehicleCategory OperatorCode="K1-R1" Description="Camping Car Hauteur &lt; 1,80m + Rem. Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="179"/>
+		<LeadVehicleCategory OperatorCode="K1-R2" Description="Camping Car Haut &lt; 1,80m + Rem. 1,80m &lt; H &lt; 2,00m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="K1-R3" Description="Camping Car Hauteur &lt; 1,80m + Rem. 2,00m&lt;H&lt;2,25m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="K1-R4" Description="Camping Car Hauteur &lt; 1,80m + Rem. 2,25m&lt;H&lt;2,50m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="K1-R5" Description="Camping Car Hauteur &lt; 1,80m + Rem. 2,50m&lt;H&lt;4,50m" MinLength="0" MaxLength="1500" MinHeight="100" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="K2-RK" Description="Camping Car 1,80m &lt; H &lt; 2,25m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="180" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="K2-R1" Description="Camping car 1,80m&lt;H&lt;2,00m + Rem. Hauteur&lt;1,80m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="K2-R2" Description="Camping Car 1,80m&lt;H&lt;2,00m  + Rem. 1,80m&lt;H&lt;2,00m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="199"/>
+		<LeadVehicleCategory OperatorCode="K2-R3" Description="Camping Car 1,80m&lt;H&lt;2,00m + Rem. 1,80m&lt;H&lt;2,25m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="K2-R4" Description="Camping Car 1,80 m&lt;H&lt;2,00m + Rem. 2,25m&lt;H&lt;2,50m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="K2-R5" Description="Camping Car 1,80 m&lt;H&lt;2,00m + Rem. 2,50m&lt;H&lt;4,50m" MinLength="0" MaxLength="1500" MinHeight="180" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="K3-RK" Description="Camping Car 2,00m &lt; H &lt; 2,25m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="K3-R1" Description="Camping Car 2,00m&lt;H&lt;2,25m + Rem. Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="K3-R2" Description="Camping Car 2,00m&lt;H&lt;2,25m + Rem. 1,80m&lt;H&lt;2,00m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="K3-R3" Description="Camping Car 2,00m&lt;H&lt;2,25m + Rem. 2,00m&lt;H&lt;2,25m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="224"/>
+		<LeadVehicleCategory OperatorCode="K3-R4" Description="Camping Car 2,00m&lt;H&lt;2,25m + Rem. 2,25m&lt;H&lt;2,50m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="K3-R5" Description="Camping Car 2,00m&lt;H&lt;2,25m + Rem. 2,50m&lt;H&lt;4,50m" MinLength="0" MaxLength="1500" MinHeight="200" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="K4-RK" Description="Camping Car 2,25m &lt; H &lt; 2,50m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="K4-R1" Description="Camping Car 2,25m&lt;H&lt;2,50m + Rem. Hauteur&lt;1,80m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="K4-R2" Description="Camping Car 2,25m&lt;H&lt;2,50m + Rem.1,80m&lt;H&lt;2,00m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="K4-R3" Description="Camping Car 2,25m&lt;H&lt;2,50m + Rem. 2,00m&lt;H&lt;2,25m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="K4-R4" Description="Camping Car 2,25m&lt;H&lt; 2,50m + Rem. 2,25m&lt;H&lt;2,50m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="249"/>
+		<LeadVehicleCategory OperatorCode="K4-R5" Description="Camping Car 2,25m&lt;H&lt;2,50m + Rem, 2,50m&lt;H&lt;4,50m" MinLength="0" MaxLength="1500" MinHeight="225" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="K5-RK" Description="Camping Car 2,50m &lt; H &lt; 4,50m + Remorque à bagages" MinLength="0" MaxLength="1300" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="K5-R1" Description="Camping Car 2,50m&lt;H&lt;4,50m + Rem. Hauteur &lt; 1,80m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="K5-R2" Description="Camping Car 2,50m&lt;H&lt;4,50m + Rem. 1,80m&lt;H&lt;2,00m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="K5-R3" Description="Camping Car 2,50m&lt;H&lt;4,50m + Rem. 2,00m&lt;H&lt;2,25m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="K5-R4" Description="Camping Car 2,50m&lt;H&lt;4,50m + Rem. 2,25m&lt;H&lt; 2,50m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+		<LeadVehicleCategory OperatorCode="K5-R5" Description="Camping Car 2,50m&lt;H&lt;4,50m + Rem. 2,50m&lt;H&lt; 4,50m" MinLength="0" MaxLength="1500" MinHeight="250" MaxHeight="300"/>
+	</LeadVehicleCategories>
+</GetPassengerAndVehicleTypesResponse>

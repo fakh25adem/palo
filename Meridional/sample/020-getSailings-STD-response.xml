@@ -1,0 +1,51 @@
+<GetSailingsResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.ferrygateway.org/1.1.0">
+	<Context AgentAccountNumber="G1450400" TimeStamp="2022-04-29T16:25:09.682Z" CountryCode="FRA" Currency="EUR" LanguagePrefCode="fr" TransactionId="116763a5-323a-45b0-b078-c02481b4860e" User="Anthony @T0" OriginatingSystem="DEBUG POSTMAN"/>
+	<Passengers>
+		<Passenger Id="P1" Age="39" DateOfBirth="1982-08-19" Category="Adult"/>
+	</Passengers>
+	<Vehicles>
+		<Vehicle Id="1">
+			<Lead OperatorCode="A1-RK;SEAT;LEON;LOCACTION" Height="145" Length="627" Width="182" Registration="4P-0QU-LV"/>
+		</Vehicle>
+	</Vehicles>
+	<FerryComponents>
+		<FerryComponent>
+			<Sailings>
+				<Sailing Id="1" IsAvailable="true">
+					<SailingInfo DepartPort="FRMRS" DestinationPort="FRPRP" ArriveDateTime="2022-05-03T07:00:00" DepartDateTime="2022-05-02T18:30:00" DepartPortName="Marseille" DestinationPortName="Propriano" IsAccommodationMandatory="true"/>
+					<Ship ShipName="KALLISTE"/>
+					<FareDetails FareType="FGWSTD" Productcode="FGW" FareTypeMessage="Std + addons Corse + Maroc" ProductDescription="FGW"/>
+					<Services>
+						<OnBoardAccommodationServices>
+							<OnBoardAccommodationService Code="A2I" Quantity="1" TotalCost="43.00" Category="Accommodation" OperatorAdded="true" Description="Chambre(s) 2 lits single" Berths="2" MaxAdults="2" MaxOccupancy="2" MinOccupancy="1"/>
+						</OnBoardAccommodationServices>
+					</Services>
+				</Sailing>
+				<Sailing Id="2" IsAvailable="true">
+					<SailingInfo DepartPort="FRPRP" DestinationPort="FRMRS" ArriveDateTime="2022-05-15T08:00:00" DepartDateTime="2022-05-14T19:00:00" DepartPortName="Propriano" DestinationPortName="Marseille" IsAccommodationMandatory="true"/>
+					<Ship ShipName="KALLISTE"/>
+					<FareDetails FareType="FGWSTD" Productcode="FGW" FareTypeMessage="Std + addons Corse + Maroc" ProductDescription="FGW"/>
+					<Services>
+						<OnBoardAccommodationServices>
+							<OnBoardAccommodationService Code="A2I" Quantity="1" TotalCost="43.00" Category="Accommodation" OperatorAdded="true" Description="Chambre(s) 2 lits single" Berths="2" MaxAdults="2" MaxOccupancy="2" MinOccupancy="1"/>
+						</OnBoardAccommodationServices>
+					</Services>
+				</Sailing>
+			</Sailings>
+			<Cost>
+				<CostDetails SailingId="1" GrossAmount="118.00">
+					<CostDetail Category="Vehicle" TotalAmount="37.00"/>
+					<CostDetail Category="Commission" TotalAmount="9.44"/>
+					<CostDetail Category="OnBoardAccommodation" TotalAmount="43.00"/>
+					<CostDetail Category="Passenger" TotalAmount="38.00"/>
+				</CostDetails>
+				<CostDetails SailingId="2" GrossAmount="118.00">
+					<CostDetail Category="Vehicle" TotalAmount="37.00"/>
+					<CostDetail Category="Commission" TotalAmount="9.44"/>
+					<CostDetail Category="OnBoardAccommodation" TotalAmount="43.00"/>
+					<CostDetail Category="Passenger" TotalAmount="38.00"/>
+				</CostDetails>
+			</Cost>
+		</FerryComponent>
+	</FerryComponents>
+</GetSailingsResponse>

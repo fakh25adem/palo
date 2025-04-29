@@ -1,0 +1,37 @@
+<RecallBookingResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.ferrygateway.org/1.1.0">
+    <Context AgentAccountNumber="G1450400" TimeStamp="2022-04-29T17:19:52.122Z" CountryCode="FRA" Currency="EUR" LanguagePrefCode="fr" TransactionId="116763a5-323a-45b0-b078-c02481b4860e" ExternalBookingReference="T0-T007-2022-04-29T17:08:39.179Z" User="Anthony @T0" OriginatingSystem="DEBUG POSTMAN" />
+    <Passengers>
+        <Passenger Id="P5" Age="39" DateOfBirth="1982-08-19" Category="Adult" Gender="Male" Title="Mr" Forename="Anthony" Surname="PLASSAIS" IdentityNumber="" IdentityCategory="National Identity Card" />
+        <Passenger Id="P6" Age="38" DateOfBirth="1983-07-20" Category="Adult" Gender="Female" Title="Mrs" Forename="Antonia" Surname="PLASSAIS" IdentityNumber="" IdentityCategory="National Identity Card" />
+        <Passenger Id="P7" Age="49" DateOfBirth="1972-08-19" Category="Adult" Gender="Male" Title="Mr" Forename="John" Surname="SMITH" IdentityNumber="" IdentityCategory="National Identity Card" />
+        <Passenger Id="P8" Age="2" DateOfBirth="2020-01-01" Category="Child" Gender="Female" Title="Mrs" Forename="Petite" Surname="PLASSAIS" IdentityNumber="" IdentityCategory="National Identity Card" />
+    </Passengers>
+    <ContactDetails Title="Mr" Forename="Anthony" Surname="PLASSAIS" AddressLine1="1 rue du Puits Vieux" AddressLine3="" City="AIX EN PROVENCE" CountryCode="FRA" ZipPostCode="13090" MobileNumber="0609922342" TelephoneNumber="0609922342" Email="alt.j7-8oxvmck9@yopmail.com" />
+    <FerryComponents>
+        <FerryComponent Id="1">
+            <Sailings>
+                <Sailing Id="1" IsAvailable="true" AllPassengers="false">
+                    <SailingInfo DepartPort="FRMRS" DestinationPort="FRPRP" ArriveDateTime="2022-05-07T07:00:00" DepartDateTime="2022-05-06T18:30:00" DepartPortName="Marseille" DestinationPortName="Propriano" IsAccommodationMandatory="true" />
+                    <Ship ShipName="KALLISTE" />
+                    <FareDetails FareType="FGWSTD" Productcode="FGW" FareTypeMessage="Std + addons Corse + Maroc" ProductDescription="FGW" />
+                    <Services />
+                </Sailing>
+                <Sailing Id="2" IsAvailable="true" AllPassengers="false">
+                    <SailingInfo DepartPort="FRPRP" DestinationPort="FRMRS" ArriveDateTime="2022-05-15T08:00:00" DepartDateTime="2022-05-14T19:00:00" DepartPortName="Propriano" DestinationPortName="Marseille" IsAccommodationMandatory="true" />
+                    <Ship ShipName="KALLISTE" />
+                    <FareDetails FareType="FGWFLX" Productcode="FGW" FareTypeMessage="Flex + addons Corse + Maroc" ProductDescription="FGW" />
+                    <Services />
+                </Sailing>
+            </Sailings>
+            <Cost>
+                <CostDetails SailingId="1" GrossAmount="245.7700">
+                    <CostDetail Category="CancellationFee" TotalAmount="245.7700" />
+                </CostDetails>
+                <CostDetails SailingId="2" GrossAmount="40.3500">
+                    <CostDetail Category="CancellationFee" TotalAmount="40.3500" />
+                </CostDetails>
+            </Cost>
+            <BookingReference Reference="197156" Version="3" />
+        </FerryComponent>
+    </FerryComponents>
+</RecallBookingResponse>

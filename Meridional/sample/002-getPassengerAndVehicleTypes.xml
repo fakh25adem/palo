@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GetPassengerAndVehicleTypesRequest xmlns="http://schemas.ferrygateway.org/1.1.0" OperatorCode="TLINK">
+    <Context AgentAccountNumber="G1450400" 
+        TimeStamp="2022-04-29T16:10:24.522Z" TransactionId="0a3cac55-b052-4c03-be6b-9c95cf69b1ce" 
+        CountryCode="FRA" User="Anthony @T0" OriginatingSystem="DEBUG POSTMAN"
+        LanguagePrefCode="fr" Currency="EUR" />
+</GetPassengerAndVehicleTypesRequest>

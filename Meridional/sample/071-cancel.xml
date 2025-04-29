@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CancelBookingRequest xmlns="http://schemas.ferrygateway.org/1.1.0" OperatorCode="TLINK">
+    <Context AgentAccountNumber="G1450400" 
+        TimeStamp="2022-04-29T17:17:58.059Z" TransactionId="116763a5-323a-45b0-b078-c02481b4860e" 
+        CountryCode="FRA" User="Anthony @T0" OriginatingSystem="DEBUG POSTMAN"
+        LanguagePrefCode="fr" Currency="EUR" />
+    <BookingReference Reference="197156" />
+</CancelBookingRequest>

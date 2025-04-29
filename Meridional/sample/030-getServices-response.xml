@@ -1,0 +1,65 @@
+<GetServicesResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.ferrygateway.org/1.1.0">
+	<Context AgentAccountNumber="G1450400" TimeStamp="2022-04-29T16:29:49.376Z" CountryCode="FRA" Currency="EUR" LanguagePrefCode="fr" TransactionId="116763a5-323a-45b0-b078-c02481b4860e" User="Anthony @T0" OriginatingSystem="DEBUG POSTMAN"/>
+	<Passengers>
+		<Passenger Id="P1" Age="39" DateOfBirth="1982-08-19" Category="Adult"/>
+	</Passengers>
+	<Vehicles>
+		<Vehicle Id="1">
+			<Lead OperatorCode="A1-RK;SEAT;LEON;LOCACTION" Height="145" Length="627" Width="182" Registration="4H-DCG-TI"/>
+		</Vehicle>
+	</Vehicles>
+	<FerryComponents>
+		<FerryComponent>
+			<OfferCode/>
+			<Sailings>
+				<Sailing Id="1" IsAvailable="true">
+					<SailingInfo DepartPort="FRMRS" DestinationPort="FRPRP" ArriveDateTime="2022-05-03T07:00:00" DepartDateTime="2022-05-02T18:30:00" DepartPortName="Marseille" DestinationPortName="Propriano" IsAccommodationMandatory="true"/>
+					<Ship ShipName="KALLISTE"/>
+					<FareDetails FareType="FGWSTD" Productcode="FGW" FareTypeMessage="Std + addons Corse + Maroc" ProductDescription="FGW"/>
+					<ServicesOptions>
+						<OnBoardAccommodationServices>
+							<OnBoardAccommodationService Code="A2I" Category="Accommodation" QuantityAvailable="2" UnitCost="43.00" Description="Chambre(s) 2 lits single" Berths="2" MaxAdults="2" MaxOccupancy="2" MinOccupancy="1"/>
+							<OnBoardAccommodationService Code="A2DE" Category="Accommodation" QuantityAvailable="15" UnitCost="59.0000" Description="Chambre(s) grand lit double, vue mer" Berths="2" MaxAdults="2" MaxOccupancy="2" MinOccupancy="1"/>
+							<OnBoardAccommodationService Code="A2DI" Category="Accommodation" QuantityAvailable="5" UnitCost="47.0000" Description="Chambre(s) grand lit double" Berths="2" MaxAdults="2" MaxOccupancy="2" MinOccupancy="1"/>
+							<OnBoardAccommodationService Code="A4E" Category="Accommodation" QuantityAvailable="15" UnitCost="54.0000" Description="Chambre(s) 4 lits single, vue mer" Berths="4" MaxAdults="4" MaxOccupancy="4" MinOccupancy="1"/>
+							<OnBoardAccommodationService Code="A4I" Category="Accommodation" QuantityAvailable="15" UnitCost="43.0000" Description="Chambre(s) 4 lits single" Berths="4" MaxAdults="4" MaxOccupancy="4" MinOccupancy="1"/>
+							<OnBoardAccommodationService Code="A4I1" Category="Accommodation" QuantityAvailable="15" UnitCost="93.0000" Description="Chambre(s) int. occup 1 pers." Berths="1" MaxAdults="1" MaxOccupancy="1" MinOccupancy="1"/>
+							<OnBoardAccommodationService Code="FAUT" Category="Accommodation" QuantityAvailable="12" UnitCost="6.0000" Description="Fauteuil(s)" Berths="1" MaxAdults="1" MaxOccupancy="1" MinOccupancy="1"/>
+						</OnBoardAccommodationServices>
+						<OnBoardServices>
+							<OnBoardService Code="DP SAM" Category="Other" QuantityAvailable="499" UnitCost="30.0000" Description="Demi-pension(s) au restaurant"/>
+							<OnBoardService Code="DPEN SM" Category="Other" QuantityAvailable="499" UnitCost="11.5000" Description="Demi-pension(s) enfant au Restaurant"/>
+							<OnBoardService Code="PDJ" Category="Other" QuantityAvailable="499" UnitCost="9.0000" Description="Petit déjeuner(s)"/>
+							<OnBoardService Code="PDJ EN" Category="Other" QuantityAvailable="499" UnitCost="4.0000" Description="Petit déjeuner(s)"/>
+							<OnBoardService Code="VELO" Category="Other" QuantityAvailable="20" UnitCost="12.0000" Description="Vélo(s) non chargé(s) sur véhicule"/>
+							<OnBoardService Code="CHENIL" Category="Other" QuantityAvailable="17" UnitCost="17.0000" Description="Chenil(s)"/>
+						</OnBoardServices>
+					</ServicesOptions>
+				</Sailing>
+				<Sailing Id="2" IsAvailable="true">
+					<SailingInfo DepartPort="FRPRP" DestinationPort="FRMRS" ArriveDateTime="2022-05-15T08:00:00" DepartDateTime="2022-05-14T19:00:00" DepartPortName="Propriano" DestinationPortName="Marseille" IsAccommodationMandatory="true"/>
+					<Ship ShipName="KALLISTE"/>
+					<FareDetails FareType="FGWFLX" Productcode="FGW" FareTypeMessage="Flex + addons Corse + Maroc" ProductDescription="FGW"/>
+					<ServicesOptions>
+						<OnBoardAccommodationServices>
+							<OnBoardAccommodationService Code="A2I" Category="Accommodation" QuantityAvailable="2" UnitCost="43.0000" Description="Chambre(s) 2 lits single" Berths="2" MaxAdults="2" MaxOccupancy="2" MinOccupancy="1"/>
+							<OnBoardAccommodationService Code="A2DE" Category="Accommodation" QuantityAvailable="13" UnitCost="59.0000" Description="Chambre(s) grand lit double, vue mer" Berths="2" MaxAdults="2" MaxOccupancy="2" MinOccupancy="1"/>
+							<OnBoardAccommodationService Code="A2DI" Category="Accommodation" QuantityAvailable="5" UnitCost="47.0000" Description="Chambre(s) grand lit double" Berths="2" MaxAdults="2" MaxOccupancy="2" MinOccupancy="1"/>
+							<OnBoardAccommodationService Code="A4E" Category="Accommodation" QuantityAvailable="13" UnitCost="54.0000" Description="Chambre(s) 4 lits single, vue mer" Berths="4" MaxAdults="4" MaxOccupancy="4" MinOccupancy="1"/>
+							<OnBoardAccommodationService Code="A4I" Category="Accommodation" QuantityAvailable="13" UnitCost="43.0000" Description="Chambre(s) 4 lits single" Berths="4" MaxAdults="4" MaxOccupancy="4" MinOccupancy="1"/>
+							<OnBoardAccommodationService Code="FAUT" Category="Accommodation" QuantityAvailable="8" UnitCost="6.0000" Description="Fauteuil(s)" Berths="1" MaxAdults="1" MaxOccupancy="1" MinOccupancy="1"/>
+						</OnBoardAccommodationServices>
+						<OnBoardServices>
+							<OnBoardService Code="DP SAM" Category="Other" QuantityAvailable="498" UnitCost="30.0000" Description="Demi-pension(s) au restaurant"/>
+							<OnBoardService Code="DPEN SM" Category="Other" QuantityAvailable="498" UnitCost="11.5000" Description="Demi-pension(s) enfant au Restaurant"/>
+							<OnBoardService Code="PDJ" Category="Other" QuantityAvailable="498" UnitCost="9.0000" Description="Petit déjeuner(s)"/>
+							<OnBoardService Code="PDJ EN" Category="Other" QuantityAvailable="498" UnitCost="4.0000" Description="Petit déjeuner(s)"/>
+							<OnBoardService Code="VELO" Category="Other" QuantityAvailable="20" UnitCost="12.0000" Description="Vélo(s) non chargé(s) sur véhicule"/>
+							<OnBoardService Code="CHENIL" Category="Other" QuantityAvailable="16" UnitCost="17.0000" Description="Chenil(s)"/>
+						</OnBoardServices>
+					</ServicesOptions>
+				</Sailing>
+			</Sailings>
+		</FerryComponent>
+	</FerryComponents>
+</GetServicesResponse>

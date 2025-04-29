@@ -1,0 +1,19 @@
+INSERT INTO public.route ("companyId", id_route, "DepartCode", "CodeRoute", "DestinationCode", "DepartName", "DestinationName", created_by, updated_by, "createdAt", "updatedAt") 
+VALUES
+(1, 207, 'ITGOA', 'GT', 'TNTUN', 'Genoa', 'Tunis', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00'),
+(1, 213, 'TNTUN', 'TG', 'ITGOA', 'Tunis', 'Genoa', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00'),
+
+(1, 208, 'ITGOA', 'GZ', 'TNZRZ', 'Genoa', 'Zarzis', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00'),
+(1, 217, 'TNZRZ', 'ZG', 'ITGOA', 'Zarzis', 'Genoa', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00'),
+
+(1, 209, 'FRMRS', 'MT', 'TNTUN', 'Marseille', 'Tunis', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00'),
+(1, 214, 'TNTUN', 'TM', 'FRMRS', 'Tunis', 'Marseille', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00'),
+
+(1, 210, 'FRMRS', 'MZ', 'TNZRZ', 'Marseille', 'Zarzis', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00'),
+(1, 218, 'TNZRZ', 'ZM', 'FRMRS', 'Zarzis', 'Marseille', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00'),
+
+(1, 212, 'FRTLN', 'TZ', 'TNZRZ', 'Toulon', 'Zarzis', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00'),
+(1, 219, 'TNZRZ', 'ZT', 'FRTLN', 'Zarzis', 'Toulon', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00'),
+
+(1, 211, 'FRTLN', 'TO', 'TNTUN', 'Toulon', 'Tunis', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00'),
+(1, 215, 'TNTUN', 'OT', 'FRTLN', 'Tunis', 'Toulon', 1, 1, '2024-02-02 00:00:00', '2024-02-02 00:00:00');

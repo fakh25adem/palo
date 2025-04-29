@@ -1,0 +1,9 @@
+<GetTimeTablesResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OperatorCode="TLINK" xmlns="http://schemas.ferrygateway.org/1.1.0">
+	<Context AgentAccountNumber="G1450400" TimeStamp="2022-04-29T16:22:17.554Z" CountryCode="FRA" Currency="EUR" LanguagePrefCode="fr" TransactionId="116763a5-323a-45b0-b078-c02481b4860e" User="Anthony @T0" OriginatingSystem="DEBUG POSTMAN"/>
+	<SailingInfos>
+		<SailingInfo DepartPort="FRPRP" DestinationPort="FRMRS" ArriveDateTime="2022-05-15T08:00:00" DepartDateTime="2022-05-14T19:00:00" DepartPortName="Propriano" DestinationPortName="Marseille" ShipName="KALLISTE"/>
+		<SailingInfo DepartPort="FRPRP" DestinationPort="FRMRS" ArriveDateTime="2022-05-18T07:30:00" DepartDateTime="2022-05-17T19:00:00" DepartPortName="Propriano" DestinationPortName="Marseille" ShipName="KALLISTE"/>
+		<SailingInfo DepartPort="FRPRP" DestinationPort="FRMRS" ArriveDateTime="2022-05-20T07:30:00" DepartDateTime="2022-05-19T19:00:00" DepartPortName="Propriano" DestinationPortName="Marseille" ShipName="KALLISTE"/>
+		<SailingInfo DepartPort="FRPRP" DestinationPort="FRMRS" ArriveDateTime="2022-05-22T08:00:00" DepartDateTime="2022-05-21T19:00:00" DepartPortName="Propriano" DestinationPortName="Marseille" ShipName="KALLISTE"/>
+	</SailingInfos>
+</GetTimeTablesResponse>

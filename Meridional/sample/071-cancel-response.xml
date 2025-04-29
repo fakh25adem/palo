@@ -1,0 +1,10 @@
+<CancelBookingResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.ferrygateway.org/1.1.0">
+    <Context AgentAccountNumber="G1450400" TimeStamp="2022-04-29T17:17:58.059Z" CountryCode="FRA" Currency="EUR" LanguagePrefCode="fr" TransactionId="116763a5-323a-45b0-b078-c02481b4860e" User="Anthony @T0" OriginatingSystem="DEBUG POSTMAN" />
+    <BookingReference Reference="197156" />
+    <Cost>
+        <CostDetails SailingId="" GrossAmount="286.1200">
+            <CostDetail Category="CancellationFee" TotalAmount="286.1200" />
+            <CostDetail Category="OtherDiscount" TotalAmount="0" />
+        </CostDetails>
+    </Cost>
+</CancelBookingResponse>
